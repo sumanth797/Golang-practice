@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
+	"runtime"
 )
-
 
 var x int = 2
 var y string = "Bond"
@@ -17,5 +17,7 @@ func main() {
 	s := fmt.Sprintf("%v,%v,%v", x, y, z)
 	fmt.Printf("%v,%v", s, h)
 	fmt.Println()
-	fmt.Println(runtime.)
+	fmt.Println(runtime.GOOS)
+	b := []byte(y)
+	fmt.Println(b)
 }
