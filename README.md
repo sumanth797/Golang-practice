@@ -4,3 +4,7 @@
 - fallthrough
 3) Struct
 - Embedded struct
+4) Interface
+- Assertion
+5) function
+- func expression

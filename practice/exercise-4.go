@@ -38,4 +38,23 @@ func main() {
 	// for k, v1 := range p2.flavours {
 	// 	fmt.Println(k, v1)
 	// }
+
+	an := struct {
+		now   int
+		next  string
+		games map[int]string
+	}{
+		now:  2,
+		next: "hello",
+		games: map[int]string{
+			1: "hockey",
+			2: "base",
+		},
+	}
+	fmt.Println(an.now)
+	fmt.Println(an.next)
+	fmt.Println(an.games)
+	for k, v := range an.games {
+		fmt.Println(k, v)
+	}
 }
