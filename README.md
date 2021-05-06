@@ -7,4 +7,4 @@
 4) Interface
 - Assertion
 5) function
-- func expression
+- func expression, callback functional programming(function as a argument), closure
